@@ -43,6 +43,42 @@ body {
   text-decoration: none;
   color: white;
 }
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(58, 84, 202);
+}
+
+.leftcontainer {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 400px;
+  color: white;
+}
+
+.header1 {
+  font-size: 48px;
+  margin-bottom: -5px;
+}
+
+.section1button {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(220, 223, 67);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.section1img {
+  width: 400px;
+  height: auto;
+  padding: 100px;
+  border-radius: 150px;
+}
 .footer {
   justify-content: center;
 }
